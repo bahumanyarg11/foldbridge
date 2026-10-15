@@ -23,15 +23,6 @@ also works on AlphaFold3, AF2-multimer, RoseTTAFold or crystal structures.
 
 ## Install
 
-From PyPI:
-
-```bash
-pip install foldbridge            # core
-pip install "foldbridge[md,mcp]"  # + MD prep and the MCP server
-```
-
-From source:
-
 ```bash
 git clone https://github.com/bahumanyarg11/foldbridge.git && cd foldbridge
 python -m venv .venv && . .venv/bin/activate
