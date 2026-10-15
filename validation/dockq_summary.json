@@ -1,0 +1,461 @@
+{
+  "per_metric": {
+    "fnat": {
+      "n": 180,
+      "pearson": 1.0,
+      "spearman": 0.9999999999999999,
+      "mean_abs_diff": 0.0,
+      "max_abs_diff": 0.0,
+      "max_diff_id": "1BRS_00_graded"
+    },
+    "irmsd": {
+      "n": 180,
+      "pearson": 0.9999999999999922,
+      "spearman": 0.9999999999999999,
+      "mean_abs_diff": 3.3329654009121703e-07,
+      "max_abs_diff": 3.0864224740412283e-06,
+      "max_diff_id": "1BRS_58_far"
+    },
+    "lrmsd": {
+      "n": 180,
+      "pearson": 0.9999999999988761,
+      "spearman": 0.9999999999999999,
+      "mean_abs_diff": 1.3837514298305672e-05,
+      "max_abs_diff": 6.920042568481222e-05,
+      "max_diff_id": "1A2K_17_graded"
+    },
+    "dockq": {
+      "n": 180,
+      "pearson": 0.9999999999993572,
+      "spearman": 0.9999999999999999,
+      "mean_abs_diff": 2.0714462391457485e-07,
+      "max_abs_diff": 1.7459184897816726e-06,
+      "max_diff_id": "1A2K_17_graded"
+    }
+  },
+  "per_native": {
+    "1A2K": {
+      "n": 60,
+      "dockq_mean_abs_diff": 2.4972724465407647e-07,
+      "dockq_max_abs_diff": 1.7459184897816726e-06
+    },
+    "1BRS": {
+      "n": 60,
+      "dockq_mean_abs_diff": 1.359171576749881e-07,
+      "dockq_max_abs_diff": 6.588030855847471e-07
+    },
+    "2PTC": {
+      "n": 60,
+      "dockq_mean_abs_diff": 2.3578946941466006e-07,
+      "dockq_max_abs_diff": 1.0131748492403503e-06
+    }
+  },
+  "capri_agreement": {
+    "agree": 180,
+    "n": 180,
+    "fraction": 1.0
+  },
+  "capri_confusion_official_rows": {
+    "incorrect": {
+      "incorrect": 61,
+      "acceptable": 0,
+      "medium": 0,
+      "high": 0
+    },
+    "acceptable": {
+      "incorrect": 0,
+      "acceptable": 56,
+      "medium": 0,
+      "high": 0
+    },
+    "medium": {
+      "incorrect": 0,
+      "acceptable": 0,
+      "medium": 39,
+      "high": 0
+    },
+    "high": {
+      "incorrect": 0,
+      "acceptable": 0,
+      "medium": 0,
+      "high": 24
+    }
+  },
+  "capri_counts_official": {
+    "incorrect": 61,
+    "acceptable": 56,
+    "medium": 39,
+    "high": 24
+  },
+  "cli_vs_api": [
+    {
+      "id": "1BRS_00_graded",
+      "dockq_cli_3dp": 0.98,
+      "dockq_api": 0.9801506912558983
+    },
+    {
+      "id": "1BRS_37_graded",
+      "dockq_cli_3dp": 0.153,
+      "dockq_api": 0.1527807913816537
+    },
+    {
+      "id": "2PTC_14_graded",
+      "dockq_cli_3dp": 0.496,
+      "dockq_api": 0.49633056790812896
+    },
+    {
+      "id": "2PTC_51_noise",
+      "dockq_cli_3dp": 0.867,
+      "dockq_api": 0.8672314771242342
+    },
+    {
+      "id": "1A2K_28_graded",
+      "dockq_cli_3dp": 0.393,
+      "dockq_api": 0.39282917093801184
+    }
+  ],
+  "n_decoys": 180,
+  "dockq_version": "2.1.3",
+  "raw_native_check": {
+    "n": 30,
+    "fnat_max_abs_diff": 0.0,
+    "irmsd_max_abs_diff": 1.7211524152571656e-06,
+    "lrmsd_max_abs_diff": 4.905171850566603e-05,
+    "dockq_max_abs_diff": 1.0131748492403503e-06,
+    "official_raw_vs_clean_dockq_max_abs_diff": 0.0,
+    "rows": [
+      {
+        "id": "1BRS_00_graded",
+        "fnat_official_raw": 0.9636363636363636,
+        "irmsd_official_raw": 0.2261466823874703,
+        "lrmsd_official_raw": 0.26342561345118615,
+        "dockq_official_raw": 0.9801506912558983,
+        "fnat_foldbridge_raw": 0.9636363636363636,
+        "irmsd_foldbridge_raw": 0.22614663734828816,
+        "lrmsd_foldbridge_raw": 0.2634139384588751,
+        "dockq_foldbridge_raw": 0.9801507224643417
+      },
+      {
+        "id": "1BRS_06_graded",
+        "fnat_official_raw": 0.9454545454545454,
+        "irmsd_official_raw": 1.1957367677477961,
+        "lrmsd_official_raw": 1.870425118865609,
+        "dockq_official_raw": 0.8369058226247694,
+        "fnat_foldbridge_raw": 0.9454545454545454,
+        "irmsd_foldbridge_raw": 1.1957368098334433,
+        "lrmsd_foldbridge_raw": 1.8704284489339873,
+        "dockq_foldbridge_raw": 0.8369057647633015
+      },
+      {
+        "id": "1BRS_12_graded",
+        "fnat_official_raw": 0.5454545454545454,
+        "irmsd_official_raw": 1.273024464173966,
+        "lrmsd_official_raw": 2.76766202497438,
+        "dockq_official_raw": 0.6769679229540636,
+        "fnat_foldbridge_raw": 0.5454545454545454,
+        "irmsd_foldbridge_raw": 1.2730243870622453,
+        "lrmsd_foldbridge_raw": 2.7676660349233635,
+        "dockq_foldbridge_raw": 0.6769678490689346
+      },
+      {
+        "id": "1BRS_18_graded",
+        "fnat_official_raw": 0.38181818181818183,
+        "irmsd_official_raw": 2.735827951692608,
+        "lrmsd_official_raw": 6.166902516865607,
+        "dockq_official_raw": 0.422698420900862,
+        "fnat_foldbridge_raw": 0.38181818181818183,
+        "irmsd_foldbridge_raw": 2.735828202582307,
+        "lrmsd_foldbridge_raw": 6.166885842403335,
+        "dockq_foldbridge_raw": 0.4226988172916489
+      },
+      {
+        "id": "1BRS_24_graded",
+        "fnat_official_raw": 0.5272727272727272,
+        "irmsd_official_raw": 2.3825013301631204,
+        "lrmsd_official_raw": 6.349978023659853,
+        "dockq_official_raw": 0.48431586240263264,
+        "fnat_foldbridge_raw": 0.5272727272727272,
+        "irmsd_foldbridge_raw": 2.382501468122115,
+        "lrmsd_foldbridge_raw": 6.349983096299997,
+        "dockq_foldbridge_raw": 0.484315732124422
+      },
+      {
+        "id": "1BRS_30_graded",
+        "fnat_official_raw": 0.18181818181818182,
+        "irmsd_official_raw": 4.535607394588743,
+        "lrmsd_official_raw": 10.013064792635147,
+        "dockq_official_raw": 0.23307371661449836,
+        "fnat_foldbridge_raw": 0.18181818181818182,
+        "irmsd_foldbridge_raw": 4.5356070073921275,
+        "lrmsd_foldbridge_raw": 10.013056027096608,
+        "dockq_foldbridge_raw": 0.233073863727296
+      },
+      {
+        "id": "1BRS_36_graded",
+        "fnat_official_raw": 0.18181818181818182,
+        "irmsd_official_raw": 5.146809868416306,
+        "lrmsd_official_raw": 9.885340493480971,
+        "dockq_official_raw": 0.2283941173587369,
+        "fnat_foldbridge_raw": 0.18181818181818182,
+        "irmsd_foldbridge_raw": 5.146809832586316,
+        "lrmsd_foldbridge_raw": 9.8853613722767,
+        "dockq_foldbridge_raw": 0.2283937735824837
+      },
+      {
+        "id": "1BRS_42_graded",
+        "fnat_official_raw": 0.7636363636363637,
+        "irmsd_official_raw": 3.5523399466422805,
+        "lrmsd_official_raw": 10.492836097785956,
+        "dockq_official_raw": 0.4370578699436347,
+        "fnat_foldbridge_raw": 0.7636363636363637,
+        "irmsd_foldbridge_raw": 3.552339494264511,
+        "lrmsd_foldbridge_raw": 10.49282099454474,
+        "dockq_foldbridge_raw": 0.4370581104086146
+      },
+      {
+        "id": "1BRS_48_graded",
+        "fnat_official_raw": 0.0,
+        "irmsd_official_raw": 6.956894211438911,
+        "lrmsd_official_raw": 11.591902199041089,
+        "dockq_official_raw": 0.13136531556003322,
+        "fnat_foldbridge_raw": 0.0,
+        "irmsd_foldbridge_raw": 6.956895187982948,
+        "lrmsd_foldbridge_raw": 11.591909165113602,
+        "dockq_foldbridge_raw": 0.13136522048398666
+      },
+      {
+        "id": "1BRS_54_swapped",
+        "fnat_official_raw": 0.0,
+        "irmsd_official_raw": 12.021959211685845,
+        "lrmsd_official_raw": 49.3652546126013,
+        "dockq_official_raw": 0.014707870297068819,
+        "fnat_foldbridge_raw": 0.0,
+        "irmsd_foldbridge_raw": 12.02195854381914,
+        "lrmsd_foldbridge_raw": 49.365264127768526,
+        "dockq_foldbridge_raw": 0.014707867262572222
+      },
+      {
+        "id": "2PTC_00_graded",
+        "fnat_official_raw": 0.9411764705882353,
+        "irmsd_official_raw": 0.05827577745775168,
+        "lrmsd_official_raw": 0.1414293337203941,
+        "dockq_official_raw": 0.9797975371139277,
+        "fnat_foldbridge_raw": 0.9411764705882353,
+        "irmsd_foldbridge_raw": 0.058275753095120224,
+        "lrmsd_foldbridge_raw": 0.14143407028835933,
+        "dockq_foldbridge_raw": 0.979797531355426
+      },
+      {
+        "id": "2PTC_06_graded",
+        "fnat_official_raw": 0.6911764705882353,
+        "irmsd_official_raw": 0.9117270643116884,
+        "lrmsd_official_raw": 2.035562614940609,
+        "dockq_official_raw": 0.7890537966713037,
+        "fnat_foldbridge_raw": 0.6911764705882353,
+        "irmsd_foldbridge_raw": 0.9117272917410038,
+        "lrmsd_foldbridge_raw": 2.0355580987733597,
+        "dockq_foldbridge_raw": 0.7890538397839425
+      },
+      {
+        "id": "2PTC_12_graded",
+        "fnat_official_raw": 0.8235294117647058,
+        "irmsd_official_raw": 1.6272596326655544,
+        "lrmsd_official_raw": 3.870800080308818,
+        "dockq_official_raw": 0.7037145835789055,
+        "fnat_foldbridge_raw": 0.8235294117647058,
+        "irmsd_foldbridge_raw": 1.6272595820678686,
+        "lrmsd_foldbridge_raw": 3.8707589380628176,
+        "dockq_foldbridge_raw": 0.7037155967537547
+      },
+      {
+        "id": "2PTC_18_graded",
+        "fnat_official_raw": 0.5147058823529411,
+        "irmsd_official_raw": 1.6509238509503668,
+        "lrmsd_official_raw": 5.370671515535233,
+        "dockq_official_raw": 0.5605326085487474,
+        "fnat_foldbridge_raw": 0.5147058823529411,
+        "irmsd_foldbridge_raw": 1.650923983513096,
+        "lrmsd_foldbridge_raw": 5.370672678735289,
+        "dockq_foldbridge_raw": 0.5605325658456021
+      },
+      {
+        "id": "2PTC_24_graded",
+        "fnat_official_raw": 0.20588235294117646,
+        "irmsd_official_raw": 2.6223511598479603,
+        "lrmsd_official_raw": 5.886810008044902,
+        "dockq_official_raw": 0.37608257242463133,
+        "fnat_foldbridge_raw": 0.20588235294117646,
+        "irmsd_foldbridge_raw": 2.6223508553494255,
+        "lrmsd_foldbridge_raw": 5.886794698150914,
+        "dockq_foldbridge_raw": 0.3760829666491947
+      },
+      {
+        "id": "2PTC_30_graded",
+        "fnat_official_raw": 0.16176470588235295,
+        "irmsd_official_raw": 3.555192455794757,
+        "lrmsd_official_raw": 7.928640632867418,
+        "dockq_official_raw": 0.28253840790937884,
+        "fnat_foldbridge_raw": 0.16176470588235295,
+        "irmsd_foldbridge_raw": 3.555192221978168,
+        "lrmsd_foldbridge_raw": 7.928650971284126,
+        "dockq_foldbridge_raw": 0.282538197260605
+      },
+      {
+        "id": "2PTC_36_graded",
+        "fnat_official_raw": 0.2647058823529412,
+        "irmsd_official_raw": 3.737518793123533,
+        "lrmsd_official_raw": 8.906198099657837,
+        "dockq_official_raw": 0.29336932138710153,
+        "fnat_foldbridge_raw": 0.2647058823529412,
+        "irmsd_foldbridge_raw": 3.7375187637874134,
+        "lrmsd_foldbridge_raw": 8.906197711823394,
+        "dockq_foldbridge_raw": 0.2933693292542829
+      },
+      {
+        "id": "2PTC_42_graded",
+        "fnat_official_raw": 0.39705882352941174,
+        "irmsd_official_raw": 4.412656600192541,
+        "lrmsd_official_raw": 13.100514510318877,
+        "dockq_official_raw": 0.2656342742295151,
+        "fnat_foldbridge_raw": 0.39705882352941174,
+        "irmsd_foldbridge_raw": 4.412656662312626,
+        "lrmsd_foldbridge_raw": 13.10050341016834,
+        "dockq_foldbridge_raw": 0.2656343911281521
+      },
+      {
+        "id": "2PTC_48_graded",
+        "fnat_official_raw": 0.3235294117647059,
+        "irmsd_official_raw": 4.519263046074466,
+        "lrmsd_official_raw": 12.97031435309505,
+        "dockq_official_raw": 0.24106837466324418,
+        "fnat_foldbridge_raw": 0.3235294117647059,
+        "irmsd_foldbridge_raw": 4.519263399415309,
+        "lrmsd_foldbridge_raw": 12.970297318890903,
+        "dockq_foldbridge_raw": 0.24106855402406224
+      },
+      {
+        "id": "2PTC_54_swapped",
+        "fnat_official_raw": 0.029411764705882353,
+        "irmsd_official_raw": 7.811364384540054,
+        "lrmsd_official_raw": 31.04204270460925,
+        "dockq_official_raw": 0.044908003549302355,
+        "fnat_foldbridge_raw": 0.029411764705882353,
+        "irmsd_foldbridge_raw": 7.811365599001809,
+        "lrmsd_foldbridge_raw": 31.042062127705577,
+        "dockq_foldbridge_raw": 0.044907972928901585
+      },
+      {
+        "id": "1A2K_00_graded",
+        "fnat_official_raw": 0.9454545454545454,
+        "irmsd_official_raw": 0.4356961596785259,
+        "lrmsd_official_raw": 0.4840397225175566,
+        "dockq_official_raw": 0.9548057214108608,
+        "fnat_foldbridge_raw": 0.9454545454545454,
+        "irmsd_foldbridge_raw": 0.435696079949991,
+        "lrmsd_foldbridge_raw": 0.48402829777141076,
+        "dockq_foldbridge_raw": 0.9548057808609919
+      },
+      {
+        "id": "1A2K_06_graded",
+        "fnat_official_raw": 0.6909090909090909,
+        "irmsd_official_raw": 1.247676828255693,
+        "lrmsd_official_raw": 2.2005150424225515,
+        "dockq_official_raw": 0.7397204323223564,
+        "fnat_foldbridge_raw": 0.6909090909090909,
+        "irmsd_foldbridge_raw": 1.2476762386224636,
+        "lrmsd_foldbridge_raw": 2.2005243485760797,
+        "dockq_foldbridge_raw": 0.739720342507478
+      },
+      {
+        "id": "1A2K_12_graded",
+        "fnat_official_raw": 0.7818181818181819,
+        "irmsd_official_raw": 1.4811549068412881,
+        "lrmsd_official_raw": 3.9120568608023785,
+        "dockq_official_raw": 0.7044475240714491,
+        "fnat_foldbridge_raw": 0.7818181818181819,
+        "irmsd_foldbridge_raw": 1.4811552980354405,
+        "lrmsd_foldbridge_raw": 3.9120404704138827,
+        "dockq_foldbridge_raw": 0.704447882949796
+      },
+      {
+        "id": "1A2K_18_graded",
+        "fnat_official_raw": 0.2545454545454545,
+        "irmsd_official_raw": 3.8738456768522656,
+        "lrmsd_official_raw": 6.338024019344639,
+        "dockq_official_raw": 0.3425352823134535,
+        "fnat_foldbridge_raw": 0.2545454545454545,
+        "irmsd_foldbridge_raw": 3.8738459573812842,
+        "lrmsd_foldbridge_raw": 6.338051154276484,
+        "dockq_foldbridge_raw": 0.34253462139281127
+      },
+      {
+        "id": "1A2K_24_graded",
+        "fnat_official_raw": 0.2,
+        "irmsd_official_raw": 3.206913948708602,
+        "lrmsd_official_raw": 7.4838316527067,
+        "dockq_official_raw": 0.31427543996476304,
+        "fnat_foldbridge_raw": 0.2,
+        "irmsd_foldbridge_raw": 3.2069139736970977,
+        "lrmsd_foldbridge_raw": 7.483822406155432,
+        "dockq_foldbridge_raw": 0.3142756418201907
+      },
+      {
+        "id": "1A2K_30_graded",
+        "fnat_official_raw": 0.01818181818181818,
+        "irmsd_official_raw": 5.217941654905385,
+        "lrmsd_official_raw": 10.199182385677565,
+        "dockq_official_raw": 0.16812919334282325,
+        "fnat_foldbridge_raw": 0.01818181818181818,
+        "irmsd_foldbridge_raw": 5.217941926272922,
+        "lrmsd_foldbridge_raw": 10.199164774129521,
+        "dockq_foldbridge_raw": 0.1681294693416846
+      },
+      {
+        "id": "1A2K_36_graded",
+        "fnat_official_raw": 0.18181818181818182,
+        "irmsd_official_raw": 5.407275606325268,
+        "lrmsd_official_raw": 10.306140550449276,
+        "dockq_official_raw": 0.21937011794045425,
+        "fnat_foldbridge_raw": 0.18181818181818182,
+        "irmsd_foldbridge_raw": 5.407275857848772,
+        "lrmsd_foldbridge_raw": 10.306157528058737,
+        "dockq_foldbridge_raw": 0.21936985127363715
+      },
+      {
+        "id": "1A2K_42_graded",
+        "fnat_official_raw": 0.10909090909090909,
+        "irmsd_official_raw": 5.979323108223374,
+        "lrmsd_official_raw": 11.908516813160533,
+        "dockq_official_raw": 0.16860522083950888,
+        "fnat_foldbridge_raw": 0.10909090909090909,
+        "irmsd_foldbridge_raw": 5.979323065768045,
+        "lrmsd_foldbridge_raw": 11.908512259952658,
+        "dockq_foldbridge_raw": 0.16860527809854728
+      },
+      {
+        "id": "1A2K_48_graded",
+        "fnat_official_raw": 0.3090909090909091,
+        "irmsd_official_raw": 4.327308404039346,
+        "lrmsd_official_raw": 12.285033827246579,
+        "dockq_official_raw": 0.24669988635791817,
+        "fnat_foldbridge_raw": 0.3090909090909091,
+        "irmsd_foldbridge_raw": 4.327308813877276,
+        "lrmsd_foldbridge_raw": 12.285055144868409,
+        "dockq_foldbridge_raw": 0.24669962704293177
+      },
+      {
+        "id": "1A2K_54_swapped",
+        "fnat_official_raw": 0.0,
+        "irmsd_official_raw": 12.486622056881457,
+        "lrmsd_official_raw": 54.245995902431105,
+        "dockq_official_raw": 0.01273002320992224,
+        "fnat_foldbridge_raw": 0.0,
+        "irmsd_foldbridge_raw": 12.486620335729041,
+        "lrmsd_foldbridge_raw": 54.24604495414961,
+        "dockq_foldbridge_raw": 0.01273001039825751
+      }
+    ]
+  },
+  "control_2PTC_renumbered_dockq_max_abs_diff": 1.0131748492403503e-06,
+  "control_2PTC_renumbered_dockq_mean_abs_diff": 2.3578946941466006e-07
+}

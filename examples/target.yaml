@@ -1,0 +1,10 @@
+# Target for the binder-campaign example: barnase alone (PDB 1BRS chain A, 110 aa).
+# `foldbridge campaign` adds each sequence from designs.fasta as chain B.
+name: barnase
+chains:
+  - id: A
+    type: protein
+    sequence: AQVINTFDGVADYLQTYHKLPDNYITKSEAQALGWVASKGNLADVAPGKSIGGDIFSNREGKLPGKSGRTWREADINYTSGFRNSDRILYSSDWLIYKTTDHYQTFTKIR
+msa: server          # with --binder-msa auto (default) binders also get server MSAs; `single` = no MSA
+seeds: [42]
+samples: 1

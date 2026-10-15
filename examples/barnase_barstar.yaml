@@ -1,0 +1,15 @@
+# Barnase–barstar (PDB 1BRS, chains A + D). Sequences are the 1BRS SEQRES records;
+# barstar here is the C40A/C82A double mutant crystallised in 1BRS.
+name: barnase_barstar
+chains:
+  - id: A            # barnase, 110 aa
+    type: protein
+    sequence: AQVINTFDGVADYLQTYHKLPDNYITKSEAQALGWVASKGNLADVAPGKSIGGDIFSNREGKLPGKSGRTWREADINYTSGFRNSDRILYSSDWLIYKTTDHYQTFTKIR
+  - id: B            # barstar C40A/C82A, 89 aa
+    type: protein
+    sequence: KKAVINGEQIRSISDLHQTLKKELALPEYYGENLDALWDALTGWVEYPLVLEWRQFEQSKQLTENGAESVLQVFREAKAEGADITIILS
+msa: server          # server | none | cached | /path/to/a3m_dir
+seeds: [42]
+samples: 5
+recycles: 3
+# reference: ../tests/data/1BRS.pdb   # optional: enables DockQ-lite / RMSD against the crystal

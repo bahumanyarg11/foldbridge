@@ -1,0 +1,67 @@
+[
+ {
+  "path": "/home/atr_ir/foldbridge_box/runs/chai_bb/chai_out/pred.model_idx_3.cif",
+  "seed": 42,
+  "sample": 3,
+  "scores": {
+   "ranking": 0.9439700841903687,
+   "ptm": 0.9711271524429321,
+   "iptm": 0.9371808171272278,
+   "has_inter_chain_clashes": 0.0,
+   "plddt": 96.5465535561574
+  },
+  "pae": "None"
+ },
+ {
+  "path": "/home/atr_ir/foldbridge_box/runs/chai_bb/chai_out/pred.model_idx_2.cif",
+  "seed": 42,
+  "sample": 2,
+  "scores": {
+   "ranking": 0.9439513087272644,
+   "ptm": 0.9711974859237671,
+   "iptm": 0.9371397495269775,
+   "has_inter_chain_clashes": 0.0,
+   "plddt": 96.54041853469492
+  },
+  "pae": "None"
+ },
+ {
+  "path": "/home/atr_ir/foldbridge_box/runs/chai_bb/chai_out/pred.model_idx_1.cif",
+  "seed": 42,
+  "sample": 1,
+  "scores": {
+   "ranking": 0.9436983466148376,
+   "ptm": 0.9710357189178467,
+   "iptm": 0.9368640184402466,
+   "has_inter_chain_clashes": 0.0,
+   "plddt": 96.552553214935
+  },
+  "pae": "None"
+ },
+ {
+  "path": "/home/atr_ir/foldbridge_box/runs/chai_bb/chai_out/pred.model_idx_0.cif",
+  "seed": 42,
+  "sample": 0,
+  "scores": {
+   "ranking": 0.9436514377593994,
+   "ptm": 0.9708036184310913,
+   "iptm": 0.9368633031845093,
+   "has_inter_chain_clashes": 0.0,
+   "plddt": 96.54938894251367
+  },
+  "pae": "None"
+ },
+ {
+  "path": "/home/atr_ir/foldbridge_box/runs/chai_bb/chai_out/pred.model_idx_4.cif",
+  "seed": 42,
+  "sample": 4,
+  "scores": {
+   "ranking": 0.9436471462249756,
+   "ptm": 0.9710564613342285,
+   "iptm": 0.9367948174476624,
+   "has_inter_chain_clashes": 0.0,
+   "plddt": 96.55426964575636
+  },
+  "pae": "None"
+ }
+]

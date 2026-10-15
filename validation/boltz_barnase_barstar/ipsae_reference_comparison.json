@@ -1,0 +1,37 @@
+[
+ {
+  "model": 0,
+  "ipsae_ref": 0.934977,
+  "ipsae_foldbridge": 0.9349767241922415,
+  "pdockq_ref": 0.4986,
+  "pdockq_foldbridge": 0.4986127527887007
+ },
+ {
+  "model": 1,
+  "ipsae_ref": 0.937884,
+  "ipsae_foldbridge": 0.937883624009984,
+  "pdockq_ref": 0.5041,
+  "pdockq_foldbridge": 0.5041013658717887
+ },
+ {
+  "model": 2,
+  "ipsae_ref": 0.934125,
+  "ipsae_foldbridge": 0.9341254821513869,
+  "pdockq_ref": 0.5036,
+  "pdockq_foldbridge": 0.5035601849736017
+ },
+ {
+  "model": 3,
+  "ipsae_ref": 0.929347,
+  "ipsae_foldbridge": 0.9293468071102692,
+  "pdockq_ref": 0.4824,
+  "pdockq_foldbridge": 0.48240951990679565
+ },
+ {
+  "model": 4,
+  "ipsae_ref": 0.933048,
+  "ipsae_foldbridge": 0.9330481867382923,
+  "pdockq_ref": 0.4978,
+  "pdockq_foldbridge": 0.4977903460423591
+ }
+]

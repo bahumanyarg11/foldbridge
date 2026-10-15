@@ -1,0 +1,1 @@
+/home/atr_ir/foldbridge_box/env/bin/boltz predict /home/atr_ir/foldbridge_box/runs/boltz_bb/barnase_barstar.yaml --out_dir /home/atr_ir/foldbridge_box/runs/boltz_bb --diffusion_samples 5 --recycling_steps 3 --seed 42 --output_format mmcif --write_full_pae --use_msa_server

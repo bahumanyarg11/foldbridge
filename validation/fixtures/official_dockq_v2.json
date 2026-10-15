@@ -1,0 +1,115 @@
+{
+  "source": "DockQ v2 python API (run_on_all_native_interfaces, identity chain map)",
+  "decoys": [
+    {
+      "id": "1BRS_58_far",
+      "native": "1BRS",
+      "receptor": "A",
+      "ligand": "D",
+      "fnat_official": 0.0,
+      "irmsd_official": 22.468441667764207,
+      "lrmsd_official": 42.79387678052328,
+      "dockq_official": 0.014130748116044414,
+      "capri_official": "incorrect"
+    },
+    {
+      "id": "1BRS_43_graded",
+      "native": "1BRS",
+      "receptor": "A",
+      "ligand": "D",
+      "fnat_official": 0.18181818181818182,
+      "irmsd_official": 4.679815534972247,
+      "lrmsd_official": 9.892083733628695,
+      "dockq_official": 0.23324171370335336,
+      "capri_official": "acceptable"
+    },
+    {
+      "id": "1BRS_20_graded",
+      "native": "1BRS",
+      "receptor": "A",
+      "ligand": "D",
+      "fnat_official": 0.8181818181818182,
+      "irmsd_official": 3.208322505467489,
+      "lrmsd_official": 7.063843179637061,
+      "dockq_official": 0.5296853719979322,
+      "capri_official": "medium"
+    },
+    {
+      "id": "1BRS_00_graded",
+      "native": "1BRS",
+      "receptor": "A",
+      "ligand": "D",
+      "fnat_official": 0.9636363636363636,
+      "irmsd_official": 0.2261466823874703,
+      "lrmsd_official": 0.26342561345118615,
+      "dockq_official": 0.9801506912558983,
+      "capri_official": "high"
+    },
+    {
+      "id": "2PTC_55_swapped",
+      "native": "2PTC",
+      "receptor": "E",
+      "ligand": "I",
+      "fnat_official": 0.0,
+      "irmsd_official": 13.250736514286213,
+      "lrmsd_official": 52.32395662820811,
+      "dockq_official": 0.01278790286749367,
+      "capri_official": "incorrect"
+    },
+    {
+      "id": "2PTC_32_graded",
+      "native": "2PTC",
+      "receptor": "E",
+      "ligand": "I",
+      "fnat_official": 0.5588235294117647,
+      "irmsd_official": 3.309511795623291,
+      "lrmsd_official": 10.552382596723772,
+      "dockq_official": 0.3742512023252638,
+      "capri_official": "acceptable"
+    },
+    {
+      "id": "2PTC_00_graded",
+      "native": "2PTC",
+      "receptor": "E",
+      "ligand": "I",
+      "fnat_official": 0.9411764705882353,
+      "irmsd_official": 0.05827577745775168,
+      "lrmsd_official": 0.1414293337203941,
+      "dockq_official": 0.9797975371139277,
+      "capri_official": "high"
+    },
+    {
+      "id": "1A2K_53_swapped",
+      "native": "1A2K",
+      "receptor": "D",
+      "ligand": "A",
+      "fnat_official": 0.0,
+      "irmsd_official": 15.308550934245009,
+      "lrmsd_official": 69.92369833403892,
+      "dockq_official": 0.008023854617621414,
+      "capri_official": "incorrect"
+    },
+    {
+      "id": "1A2K_20_graded",
+      "native": "1A2K",
+      "receptor": "D",
+      "ligand": "A",
+      "fnat_official": 0.2,
+      "irmsd_official": 3.4482112596372496,
+      "lrmsd_official": 6.453193800646671,
+      "dockq_official": 0.3311615445183172,
+      "capri_official": "acceptable"
+    },
+    {
+      "id": "1A2K_02_graded",
+      "native": "1A2K",
+      "receptor": "D",
+      "ligand": "A",
+      "fnat_official": 0.9454545454545454,
+      "irmsd_official": 0.30073343912097783,
+      "lrmsd_official": 0.598589712477469,
+      "dockq_official": 0.9672923873777419,
+      "capri_official": "high"
+    }
+  ]
+}

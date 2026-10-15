@@ -1,0 +1,23 @@
+# Human deoxy-haemoglobin (PDB 4HHB): alpha2 beta2 tetramer with four haem groups.
+# Chain IDs for copies are expanded as A, A2 / B, B2 (backends may remap to A..D).
+name: hemoglobin_heme
+chains:
+  - id: A            # alpha globin, 141 aa
+    type: protein
+    copies: 2
+    sequence: VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+  - id: B            # beta globin, 146 aa
+    type: protein
+    copies: 2
+    sequence: VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+ligands:
+  - id: H
+    # Haem b (Fe-protoporphyrin IX, C34H32FeN4O4). Chai-1 needs a SMILES; Boltz-2 accepts either
+    # and uses the SMILES when both are given (drop `smiles:` to make Boltz-2 use the CCD entry).
+    # ColabFold cannot model ligands and rejects this spec.
+    ccd: HEM
+    smiles: "CC1=C(C2=CC3=C(C(=C([N-]3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C=C)C)C=C)C)CCC(=O)O)CCC(=O)O.[Fe+2]"
+    copies: 4
+msa: server
+seeds: [42]
+samples: 1

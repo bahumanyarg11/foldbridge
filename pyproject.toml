@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foldbridge"
+version = "0.1.0"
+description = "One spec, many folders: run Boltz-2 / Chai-1 / ColabFold from a single job spec, cache MSAs, score complexes uniformly, and hand results to MD (OpenMM/GROMACS) or to LLM agents via MCP."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Bahumanya R G", email = "bahumanyarg@gmail.com"}]
+keywords = ["protein structure", "boltz", "chai", "colabfold", "alphafold", "ipsae", "dockq", "protein design", "mcp"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = ["numpy>=1.24", "pyyaml>=6", "requests>=2.28"]
+
+[project.urls]
+Homepage = "https://github.com/bahumanyarg11/foldbridge"
+Repository = "https://github.com/bahumanyarg11/foldbridge"
+Issues = "https://github.com/bahumanyarg11/foldbridge/issues"
+Changelog = "https://github.com/bahumanyarg11/foldbridge/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+md = ["openmm>=8", "pdbfixer"]
+score = ["DockQ>=2", "posebusters"]
+mcp = ["mcp>=1.2"]
+dev = ["pytest>=7", "ruff>=0.6"]
+
+[project.scripts]
+foldbridge = "foldbridge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["foldbridge*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E702", "E741"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
